@@ -1,0 +1,22 @@
+{
+  "name": "electron-fyc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^22.2.0",
+    "svelte-navigator": "^3.2.2"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "electron .",
+    "dist": "npm run build && electron-builder"
+  },
+  "devDependencies": {
+    "electron-builder": "^23.6.0"
+  }
+}
